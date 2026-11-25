@@ -14,7 +14,7 @@ const usersRepository = {
 
     async get() {
         return await db` 
-        SELECT * FROM users
+        SELECT * FROM users 
         `    
     },
 
